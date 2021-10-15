@@ -1,0 +1,127 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  height: 280px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: 0px 0px 2px #00000029;
+}
+
+.wrapper:hover {
+  -moz-box-shadow: 0 0 10px #ccc;
+  -webkit-box-shadow: 0 0 10px #ccc;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.wrapper img {
+  height: auto;
+  width: auto;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.section h4 {
+  text-align: center;
+  font: normal normal bold 22px/30px;
+  font-size: 22px;
+  letter-spacing: 0px;
+  color: #545454;
+  opacity: 1;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  white-space: normal;
+  text-transform: uppercase;
+}
+
+.ant-card-bordered {
+  border: none;
+}
+
+.price {
+  text-align: center;
+  font: normal normal bold 18px/28px Bold;
+  letter-spacing: 0px;
+  color: #12A942;
+  opacity: 1;
+}
+
+.next-btn {
+  background: #1F1E1E 0% 0% no-repeat padding-box;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0px;
+  display: flex;
+  justify-content: left;
+  font-size: 16px;
+  margin-top: 30px;
+  padding: 5px 30px 30px 30px;
+  color: #E6E6E6;
+  text-transform: uppercase;
+  opacity: 1;
+}
+
+.input {
+  border: 1px solid #2b2b2b;
+  opacity: 1;
+  /* padding: 10px 12px; */
+}
+
+.payment .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+  border: 1px solid #2b2b2b;
+  opacity: 1;
+  color: #CED4DA;
+}
+
+.ant-form-item-label>label {
+  font: normal normal 600 16px/20px ;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
+}
+
+.total {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #07411A;
+  opacity: 1;
+  margin-right: 8rem;
+}
+
+.total-price {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: green;
+  opacity: 1;
+}
+
+.ant-radio-inner {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: #fff;
+  border-color: #2b2b2b;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+.ant-select-single.ant-select-show-arrow .ant-select-selection-item, .ant-select-single.ant-select-show-arrow .ant-select-selection-placeholder {
+  padding-right: 18px;
+  text-align: left;
+  color: #2b2b2b;
+}
+
+.payment .ant-input::placeholder{
+  color: #2b2b2b;
+}
