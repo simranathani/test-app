@@ -1,16 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
-import Test from './Test';
-import Checkout from './Checkout';
+import TableFile from './TableFile';
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Router basename="">
           <Switch>
-            <Route path='/checkout' component={Checkout} />
-            <Route path='/' component={Test} />        
+            <Route path='/' component={TableFile} />
           </Switch>
         </Router>
 
